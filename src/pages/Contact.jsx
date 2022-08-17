@@ -33,7 +33,7 @@ export default function Contact(){
                    
                 </div>
 
-                <a className='repo-port' href='ffsdf'> <p>Repository of this portfolio</p> </a>
+                <a className='repo-port' href='https://github.com/Levi-Programmer/Portfolio'> <p>Repository of this portfolio</p> </a>
             </div>
 
            
