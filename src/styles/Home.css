@@ -1,0 +1,95 @@
+.container{
+    margin-top: 200px;
+}
+
+.banner-1{
+    width: 60%;
+    height: 500px;
+    float: right;
+    object-fit: cover;
+    padding-right: 20px;
+}
+
+.description{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.greeting {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.profile{
+    color: #1b4670;
+}
+
+.text-under{
+    width: 40%;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.briefcase{
+    text-align: center;
+    margin-top: 400px;
+    font-size: 40px;
+    color: #1b4670;
+}
+
+.experience{
+    text-align: center;
+    font-size: 40px;
+    color: #1b4670;
+    margin-top: 100px;
+}
+
+
+
+
+/* Mobile Home */
+
+
+@media (max-width: 600px) {
+    .container{
+        margin-top: 100px;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .banner-1{
+        width: 100%;
+        height: fit-content;
+        padding-right: 0px;
+    }
+
+    .text-under{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        padding-top: 0;
+    }
+    .greeting{
+        font-size: 30px;
+        color: aliceblue;
+    }
+
+    .profile{
+        font-size: 20px;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px rgb(46, 157, 221);
+    }
+
+    .description{
+        display: none;
+    }
+
+    .briefcase{
+        margin-top: 220px;
+    }
+   
+}

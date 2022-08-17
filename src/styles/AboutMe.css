@@ -1,0 +1,111 @@
+.title{
+    color: #1b4670;
+    font-size: 35px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+
+
+.skills{
+    text-align: center;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+.vtex-icon{
+    width: 80px;
+}
+
+/* Skills */
+
+
+.icon-skill{
+    width: 37px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
+
+.skills-title{
+    font-size: 35px;
+    color: #1b4670;
+}
+
+
+
+.front-end{
+    background: linear-gradient(rgb(13, 204, 230),rgb(0, 60, 255));
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+.back-end{
+    background: linear-gradient(rgb(144, 84, 255), rgb(7, 19, 87));
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+.back{
+    margin-top: 20px;
+}
+
+
+.container-2{
+    display: flex;
+    margin-top: 200px;
+}
+
+.text-container{
+    text-align: left;
+    padding-left: 50px;
+    
+}
+
+.presentation{
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.front-tec{
+    color: rgb(0, 60, 255);
+}
+
+.back-tec{
+    color: rgb(74, 12, 189);
+}
+
+
+
+
+
+/*About Mobile */
+
+
+@media (max-width: 600px){
+    .container-2{
+        display: block;
+        margin-top: 150px;
+        padding-right: 50px;
+    }
+
+    .skills{
+        padding-left: 30px;
+       
+        width: 100%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .skills-title{
+        font-size: 25px;
+    }
+
+    .icon-skill{
+        width: 30px;
+    }
+
+    .vtex-icon{
+        width: 60px;
+    }
+    
+}

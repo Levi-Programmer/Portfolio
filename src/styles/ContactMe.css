@@ -1,0 +1,77 @@
+.contact{
+    margin-top: 150px;
+    display: flex;
+    margin-left: 40px;
+}
+
+
+.code-image{
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.contact-title{
+    padding-left: 30px;
+    color: #1b4670;
+}
+
+
+.icons-co{
+    width: 20px;
+    padding-left: 30px;
+}
+
+
+.test{
+    display: flex;
+}
+
+
+.networks-icons{
+    width: 40px;
+    object-fit: contain;
+    padding-right: 10px;
+}
+
+
+
+.link-icon{
+    text-decoration: none;
+    color: black;
+}
+
+.repo-port{
+   text-decoration: none;
+   position: absolute;
+   padding-left: 30px;
+   margin-top: 100px;
+   color: #1b4670;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px){
+    .contact{
+        display: block;
+        margin-left: 30px;
+    }
+
+    .contact-title{
+        padding-left: 0px;
+  
+    }
+
+    .code-image{
+        display: none;
+    }
+
+    .icons-co{
+        padding-left: 0px;
+    }
+    .repo-port{
+        position: relative;
+    }
+    
+}

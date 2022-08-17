@@ -1,0 +1,56 @@
+.Navbar{
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.logo-co{
+    display: flex;
+    padding-left: 10px;
+}
+
+.nav-links{
+    position: fixed;
+    right: 0;
+    padding-right: 20px;
+}
+
+.name{
+    color: #1b4670;
+}
+
+.logo{
+    width: 60px;
+    object-fit: contain;
+}
+
+
+.nav-link{
+    text-decoration: none;
+    padding-left: 10px;
+    color: #1b4670;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    
+}
+
+
+/* Navbar_Mobile mobile  */ 
+
+
+
+@media (max-width: 600px) {
+    .nav-link{
+        padding-left: 5px;
+        font-size: 15px;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+}
