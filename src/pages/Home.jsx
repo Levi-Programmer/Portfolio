@@ -25,6 +25,7 @@ import iconNine from '../assets/css.png'
 import iconTen from '../assets/Vtex.png'
 import iconEleven from '../assets/js.png'
 import iconTwelve from '../assets/tp.png'
+import thirteen from '../assets/mongo.png'
 //Image Mobile
 import apiMobile from '../assets/api-movies-mobile.png'
 import RickMobile from '../assets/rickMobile.png'
@@ -55,7 +56,7 @@ export default function Home(){
             <h1 className='experience'>Experience</h1>
             <DevGroup/>
             <Card name={'Alfa'} description={'I was remodeling the checkout of this ecommerce, adjusting styles and adding functionalities with Java Script.'} image={alfaDesktop} imageMobile={alfaMobile} iconTen={iconTen} iconEleven={iconEleven} linkTitle={'Link'} link='https://www.alfa.com.co/?gclid=CjwKCAjw0dKXBhBPEiwA2bmObfBRZKp7jb8ojiU9dwpV4PailuFvR3Q8JIJ8_ZMybTPkW2jA7O7NcBoCYi4QAvD_BwE' repoTitle={'🚫'} />
-            <Card name={'Remington'} description={'I was working on an ecommerce called Remington, building it from scratch, using Vtex, React, TypeScript, Css and GraphQl.'}  repoTitle={'🚫'}  linkTitle={'not yet published'}  image={ReminDesktop} imageMobile={reminMobile}  iconOne={iconOne} iconTen={iconTen} iconTwelve={iconTwelve}  iconNine={iconNine} />
+            <Card name={'Remington'} description={'I was working on an ecommerce called Remington, building it from scratch, using Vtex, React, TypeScript, Css and GraphQl.'}  repoTitle={'🚫'}  linkTitle={'Link'}  link='https://www.remingtoncolombia.com/' image={ReminDesktop} imageMobile={reminMobile}  iconOne={iconOne} iconTen={iconTen} iconTwelve={iconTwelve}  iconNine={iconNine} />
         </div>
     )
 }

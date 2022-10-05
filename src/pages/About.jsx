@@ -16,10 +16,14 @@ export default function About(){
                 <p>I respect the opinions of my colleagues and the orders of my superiors <br/> and I am punctual with what I am ordered to do. </p>
                 <h5 className='presentation'>Skills</h5>
                 <p> I handle technologies such as <span className='front-tec'> Html, Css, Js, React, Redux, Vtex and Css frameworks.</span> </p>
-                <p> On the other hand, I handle  <span className='back-tec'> Node, Express, Sequelize, Sql, PostgresQl, Git and Jest</span> </p>
+                <p> On the other hand, I handle  <span className='back-tec'> Node, Express, Sequelize, Sql, PostgresQl, MongoDb, Git and Jest</span> </p>
                 <p>All these technologies are used with best practices, I am currently improving my <br/> English and my skills. </p>
                 <h5 className='presentation'>Studies</h5>
-                <p>I am finishing the <a style={{color: "rgb(0, 60, 255)"}} href='https://www.soyhenry.com/?utm_source=google&utm_medium=cpc&utm_campaign=GADS_SEARCH_COL_BRAND&utm_content=Brand&gclid=Cj0KCQjwgO2XBhCaARIsANrW2X1nHk8Ebl25ESOmMBojdlDA_GW55Z6xuOmXrVKEPSC2p9pJbp2QrPoaApeDEALw_wcB'>Henry's</a> Bootcamp, where most of the technologies I know <br/> i learned  in the bootcamp, the rest I learned on my own.</p>
+                <p>
+                    Software development technician - 2020
+                    <br/>
+                    Complete the four modules of henry's bootcamp - 2022
+                </p>
                 </div>
             </div>
             <div className='skills'>

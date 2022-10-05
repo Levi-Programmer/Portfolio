@@ -15,6 +15,7 @@ import sql from '../assets/sql.png'
 import postgresql from '../assets/postgresql.png'
 import git from '../assets/git.png'
 import jest from '../assets/jest.png'
+import mongo from '../assets/mongo.png'
 //styles
 
 import '../styles/AboutMe.css'
@@ -42,6 +43,7 @@ export default function Skills(){
             <img src={sequelize} alt='react icon'  className='icon-skill'/>
             <img src={sql} alt='react icon'  className='icon-skill'/>
             <img src={postgresql} alt='react icon'  className='icon-skill'/>
+            <img src={mongo} alt='MongoDb icon' className='icon-skill'/>
             <img src={git} alt='react icon'  className='icon-skill'/>
             <img src={jest} alt='react icon'  className='icon-skill'/>
             </div>
